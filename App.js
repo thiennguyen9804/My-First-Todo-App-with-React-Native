@@ -4,6 +4,7 @@ import Header from './components/Header';
 import TodoItem from './components/TodoItem';
 import AddTodo from './components/AddTodo';
 
+
 export default function App() {
 
     const [todos, setTodos] = useState([
@@ -53,15 +54,16 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
     },
 
     content: {
         padding: 40,
+        flex: 1,
     },
 
     list: {
-        marginTop: 20
+        marginTop: 20,
+        flex: 1,
     }
 
 });
